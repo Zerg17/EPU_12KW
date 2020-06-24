@@ -1,7 +1,9 @@
-#include <stm32h7xx.h>
+#include "system.h"
 
 int main(void){
     
+    sysInit();
+
     while(1){
 
     }
